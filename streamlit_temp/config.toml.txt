@@ -1,8 +1,0 @@
-[server]
-headless = true
-
-[theme]
-base = "light"
-
-[runtime]
-pythonVersion = "3.10"
