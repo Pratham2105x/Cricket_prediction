@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load your model
-with open('match_model.pkl', 'rb') as f:
+with open('pipe.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.title("🏏 Cricket Match Win Probability Predictor (2nd Innings)")
