@@ -4,8 +4,6 @@ import pandas as pd
 import joblib
 model = joblib.load("pipe.joblib")
 
-# Load model
-
 st.title("🏏 IPL Match Win Probability Predictor")
 
 # Valid IPL teams
