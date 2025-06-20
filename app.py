@@ -1,10 +1,10 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import joblib
+model = joblib.load("pipe.joblib")
 
 # Load model
-with open("pipe.pkl", "rb") as f:
-    model = pickle.load(f)
 
 st.title("🏏 IPL Match Win Probability Predictor")
 
